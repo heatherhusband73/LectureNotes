@@ -22,7 +22,7 @@ Git Walkthrough
     
         git init            -> Initializes the git repository in the current directory, we only need to use this command once for each separate repository created.
 ​
-        git status      -> Checks the status of our files for any untracked files or changes
+        git status      -> Checks the st git atus of our files for any untracked files or changes
 ​
         git add .         -> Adds ALL(.) files in the current directory to be tracked by git
 ​
