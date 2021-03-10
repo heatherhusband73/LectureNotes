@@ -1,0 +1,125 @@
+[Architecture/Processor Information]
+
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e0c
+
+[Operating System Information]
+
+Product Name = Windows 10 Pro
+Version = 6.3
+Build Lab = 18362.1.amd64fre.19h1_release.190318-1202
+Type = Multiprocessor Free
+
+This is a clean installed system
+
+[File versions]
+
+onex.dll    10.0.18362.1
+l2nacp.dll    10.0.18362.1
+wlanapi.dll    10.0.18362.1316
+wlancfg.dll    10.0.18362.1
+wlanconn.dll    10.0.18362.1316
+wlandlg.dll    10.0.18362.1316
+wlanext.exe    10.0.18362.1
+wlangpui.dll    10.0.18362.1316
+wlanhc.dll    10.0.18362.1316
+wlanmm.dll    10.0.18362.1316
+wlanmsm.dll    10.0.18362.1316
+wlanpref.dll    10.0.18362.1316
+wlansec.dll    10.0.18362.1316
+wlansvc.dll    10.0.18362.1316
+wlanui.dll    10.0.18362.1316
+onex.dll    10.0.18362.1
+dot3api.dll    10.0.18362.1350
+dot3cfg.dll    10.0.18362.1
+dot3dlg.dll    10.0.18362.1316
+dot3gpclnt.dll    10.0.18362.1
+dot3gpui.dll    10.0.18362.1316
+dot3msm.dll    10.0.18362.1350
+dot3svc.dll    10.0.18362.1350
+dot3ui.dll    10.0.18362.1
+
+[Power Information]
+
+Machine is running on AC Adapter
+
+[System Information]
+
+
+Host Name:                 MSI
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.18363 N/A Build 18363
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          RAC
+Registered Organization:   
+Product ID:                00330-52950-48879-AAOEM
+Original Install Date:     12/9/2020, 9:15:04 AM
+System Boot Time:          3/2/2021, 9:17:33 AM
+System Manufacturer:       Micro-Star International Co., Ltd.
+System Model:              Modern 15 A10M
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 142 Stepping 12 GenuineIntel ~1609 Mhz
+BIOS Version:              American Megatrends Inc. E1551IMS.10C, 12/12/2019
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
+Total Physical Memory:     8,028 MB
+Available Physical Memory: 1,708 MB
+Virtual Memory: Max Size:  14,704 MB
+Virtual Memory: Available: 1,814 MB
+Virtual Memory: In Use:    12,890 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\MSI
+Hotfix(s):                 14 Hotfix(s) Installed.
+                           [01]: KB4601056
+                           [02]: KB4513661
+                           [03]: KB4516115
+                           [04]: KB4517245
+                           [05]: KB4521863
+                           [06]: KB4524569
+                           [07]: KB4535680
+                           [08]: KB4577670
+                           [09]: KB4580325
+                           [10]: KB4584229
+                           [11]: KB4586863
+                           [12]: KB4598479
+                           [13]: KB4601395
+                           [14]: KB5001028
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Intel(R) Wireless-AC 9560 160MHz
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     10.0.0.1
+                                 IP address(es)
+                                 [01]: 10.0.0.47
+                                 [02]: fe80::c07d:def2:d5b2:81c1
+                                 [03]: 2601:245:c601:600:e5ef:21af:7bf2:9f29
+                                 [04]: 2601:245:c601:600:8409:f0c3:9b58:d24f
+                                 [05]: 2601:245:c601:600:c07d:def2:d5b2:81c1
+                                 [06]: 2601:245:c601:600::dce6
+                           [02]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+                           [03]: TAP-Windows Adapter V9
+                                 Connection Name: Local Area Connection
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+[User Information]
+
+USERDOMAIN=MSI
+USERDOMAIN_ROAMINGPROFILE=MSI
+USERNAME=hea
+USERPROFILE=C:\Users\hea

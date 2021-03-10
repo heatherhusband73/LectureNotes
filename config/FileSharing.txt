@@ -1,0 +1,91 @@
+NBTSTAT -N: 
+    
+Local Area Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Wi-Fi:
+Node IpAddress: [10.0.0.47] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    MSI            <20>  UNIQUE      Registered 
+    WORKGROUP      <00>  GROUP       Registered 
+    MSI            <00>  UNIQUE      Registered 
+    
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Local Area Connection* 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+ 
+NBTSTAT -C: 
+    
+Local Area Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Wi-Fi:
+Node IpAddress: [10.0.0.47] Scope Id: []
+
+    No names in cache
+    
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+    
+Local Area Connection* 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+ 
+NET CONFIG RDR: 
+Computer name                        \\MSI
+Full Computer name                   MSI
+User name                            hea
+
+Workstation active on                
+	NetBT_Tcpip_{7B33AAF3-E649-47D5-83DF-6B88AEE63B50} (9CFCE869776F)
+
+Software version                     Windows 10 Pro
+
+Workstation domain                   WORKGROUP
+Logon domain                         MSI
+
+COM Open Timeout (sec)               0
+COM Send Count (byte)                16
+COM Send Timeout (msec)              250
+The command completed successfully.
+
+ 
+NET CONFIG SRV: 
+ 
+NET SHARE: 
+
+Share name   Resource                        Remark
+
+-------------------------------------------------------------------------------
+C$           C:\                             Default share                     
+IPC$                                         Remote IPC                        
+ADMIN$       C:\WINDOWS                      Remote Admin                      
+The command completed successfully.
+

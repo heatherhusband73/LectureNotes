@@ -1,0 +1,15 @@
+Firewall Rules currently enforced : 
+------------------------------------------------------------------------ 
+
+Windows Defender Firewall Rules:
+----------------------------------------------------------------------
+No rules match the specified criteria.
+
+Ok.
+
+Connection Security Rules currently enforced : 
+------------------------------------------------------------------------ 
+
+Connection Security Rules:
+The requested operation requires elevation (Run as administrator).
+

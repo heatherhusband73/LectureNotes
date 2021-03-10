@@ -1,0 +1,58 @@
+Driver Description = Intel(R) Wireless-AC 9560 160MHz
+Adapter Guid = {7B33AAF3-E649-47D5-83DF-6B88AEE63B50}
+Hardware ID = PCI\VEN_8086&DEV_02F0&SUBSYS_00348086
+Driver Date = 8-15-2019
+Driver Version = 21.40.1.4
+Driver Provider = Intel
+ExtensibilityDLL = %SystemRoot%\system32\IntelWifiIhv08.dll
+
+Driver Description = Microsoft Wi-Fi Direct Virtual Adapter
+Adapter Guid = {A2A47081-92AF-4783-BCC4-832743F22850}
+Hardware ID = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+
+Driver Description = Microsoft Wi-Fi Direct Virtual Adapter
+Adapter Guid = {1259FEFD-683D-4B30-84A9-FBA184EDBD80}
+Hardware ID = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+
+wlanext.exe                   3404 N
+Driver Description = Microsoft Kernel Debug Network Adapter
+Adapter Guid = {F0AB318F-0F4B-41B1-8B23-E5B315F51EBE}
+Hardware ID = root\kdnic
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+
+Driver Description = Bluetooth Device (Personal Area Network)
+Adapter Guid = {34445F1D-903D-4A27-9119-EDC5D0261F4B}
+Hardware ID = BTH\MS_BTHPAN
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+
+Driver Description = WAN Miniport (IP)
+Adapter Guid = {9B2133D0-8B0F-4C7C-BCAF-ED2F2FC051D1}
+Hardware ID = ms_ndiswanip
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+
+Driver Description = WAN Miniport (IPv6)
+Adapter Guid = {40500002-3CC5-4AD9-9791-14725D83B8D9}
+Hardware ID = ms_ndiswanipv6
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+
+Driver Description = WAN Miniport (Network Monitor)
+Adapter Guid = {76EA7528-ED52-453F-8227-E9821F091B5B}
+Hardware ID = ms_ndiswanbh
+Driver Date = 6-21-2006
+Driver Version = 10.0.18362.1
+Driver Provider = Microsoft
+

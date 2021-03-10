@@ -1,0 +1,88 @@
+ARP -A: 
+
+Interface: 10.0.0.47 --- 0xd
+  Internet Address      Physical Address      Type
+  10.0.0.1              48-f7-c0-a3-53-b3     dynamic   
+  10.0.0.49             90-b1-44-02-ef-b3     dynamic   
+  10.0.0.84             ac-ae-19-ce-3e-c1     dynamic   
+  10.0.0.255            ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+ 
+NETSH INT IPV6 SHOW NEIGHBORS: 
+
+Interface 1: Loopback Pseudo-Interface 1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+ff02::16                                                         Permanent 
+ff02::fb                                                         Permanent 
+ff02::1:2                                                        Permanent 
+ff02::1:3                                                        Permanent 
+
+Interface 14: Local Area Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::4af7:c0ff:fea3:53b3                     00-00-00-00-00-00  Unreachable 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::fb                                      33-33-00-00-00-fb  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+
+Interface 13: Wi-Fi
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::4af7:c0ff:fea3:53b3                     48-f7-c0-a3-53-b3  Reachable (Router)
+ff02::1                                       33-33-00-00-00-01  Permanent 
+ff02::2                                       33-33-00-00-00-02  Permanent 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::fb                                      33-33-00-00-00-fb  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+ff02::1:ff00:dce6                             33-33-ff-00-dc-e6  Permanent 
+ff02::1:ff58:d24f                             33-33-ff-58-d2-4f  Permanent 
+ff02::1:ffa3:53b3                             33-33-ff-a3-53-b3  Permanent 
+ff02::1:ffb2:81c1                             33-33-ff-b2-81-c1  Permanent 
+ff02::1:fff2:9f29                             33-33-ff-f2-9f-29  Permanent 
+
+Interface 17: Local Area Connection* 1
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::4af7:c0ff:fea3:53b3                     00-00-00-00-00-00  Unreachable 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::fb                                      33-33-00-00-00-fb  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+
+Interface 5: Bluetooth Network Connection
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::4af7:c0ff:fea3:53b3                     00-00-00-00-00-00  Unreachable 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::fb                                      33-33-00-00-00-fb  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+
+Interface 3: Local Area Connection* 2
+
+
+Internet Address                              Physical Address   Type
+--------------------------------------------  -----------------  -----------
+fe80::4af7:c0ff:fea3:53b3                     00-00-00-00-00-00  Unreachable 
+ff02::16                                      33-33-00-00-00-16  Permanent 
+ff02::fb                                      33-33-00-00-00-fb  Permanent 
+ff02::1:2                                     33-33-00-01-00-02  Permanent 
+ff02::1:3                                     33-33-00-01-00-03  Permanent 
+

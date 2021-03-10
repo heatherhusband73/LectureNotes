@@ -1,0 +1,979 @@
+-------------------------------------
+---------+ WCN Information +---------
+-------------------------------------
+
+
+-----------------
++ Services Status
+-----------------
+
+
+SERVICE_NAME: wcncsvc 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wlansvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: eaphost 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: fdrespub 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: upnphost 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: eaphost 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+
+-----------------------
++ WCN Files Information 
+-----------------------
+
+
+---------------------
+wcncsvc.dll
+---------------------
+	- Version 		:  	10.0.18362.1316
+	- Creation Date		: 	20210114115608.381624-300
+	- Description		: 	C:\WINDOWS\system32\wcncsvc.dll
+	- Installation Date	: 	20210114115608.381624-300
+	- Last Accessed		: 	20210114115608.386642-300
+	- Last Modified 	: 	20210114115608.386642-300
+	- Status		: 	OK
+
+---------------------
+wcnapi.dll
+---------------------
+	- Version 		:  	10.0.18362.1316
+	- Creation Date		: 	20210114115608.389608-300
+	- Description		: 	C:\WINDOWS\system32\wcnapi.dll
+	- Installation Date	: 	20210114115608.389608-300
+	- Last Accessed		: 	20210114115608.392632-300
+	- Last Modified 	: 	20210114115608.392632-300
+	- Status		: 	OK
+
+---------------------
+fdwcn.dll
+---------------------
+	- Version 		:  	10.0.18362.1316
+	- Creation Date		: 	20210114115608.360712-300
+	- Description		: 	C:\WINDOWS\system32\fdwcn.dll
+	- Installation Date	: 	20210114115608.360712-300
+	- Last Accessed		: 	20210114115608.363710-300
+	- Last Modified 	: 	20210114115608.363710-300
+	- Status		: 	OK
+
+---------------------
+wcneapauthproxy.dll
+---------------------
+	- Version 		:  	10.0.18362.1
+	- Creation Date		: 	20190318234354.962160-300
+	- Description		: 	C:\WINDOWS\system32\wcneapauthproxy.dll
+	- Installation Date	: 	20190318234354.962160-300
+	- Last Accessed		: 	20190318234354.962160-300
+	- Last Modified 	: 	20190318234354.962160-300
+	- Status		: 	OK
+
+---------------------
+wcneappeerproxy.dll
+---------------------
+	- Version 		:  	10.0.18362.1
+	- Creation Date		: 	20190318234354.946535-300
+	- Description		: 	C:\WINDOWS\system32\wcneappeerproxy.dll
+	- Installation Date	: 	20190318234354.946535-300
+	- Last Accessed		: 	20190318234354.946535-300
+	- Last Modified 	: 	20190318234354.962160-300
+	- Status		: 	OK
+
+---------------------
+wcnwiz.dll
+---------------------
+	- Version 		:  	10.0.18362.1316
+	- Creation Date		: 	20210114115608.370684-300
+	- Description		: 	C:\WINDOWS\system32\wcnwiz.dll
+	- Installation Date	: 	20210114115608.370684-300
+	- Last Accessed		: 	20210114115608.374685-300
+	- Last Modified 	: 	20210114115608.374685-300
+	- Status		: 	OK
+
+---------------------
+wcnnetsh.dll
+---------------------
+	- Version 		:  	10.0.18362.1316
+	- Creation Date		: 	20210114115608.377636-300
+	- Description		: 	C:\WINDOWS\system32\wcnnetsh.dll
+	- Installation Date	: 	20210114115608.377636-300
+	- Last Accessed		: 	20210114115608.378676-300
+	- Last Modified 	: 	20210114115608.378676-300
+	- Status		: 	OK
+
+
+-------------------------------
++ Network Adapters Information 
+-------------------------------
+
+
+---------------------
+DeviceID  :  0
+---------------------
+	- Description 		: 	Microsoft Kernel Debug Network Adapter
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	Microsoft Kernel Debug Network Adapter
+	- NetConnectionStatus	: 	
+	- PNPDeviceID     	: 	ROOT\KDNIC\0000
+	- ProductName      	: 	Microsoft Kernel Debug Network Adapter
+	- ServiceName       	: 	kdnic
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000000] Microsoft Kernel Debug Network Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  1
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Intel(R) Wireless-AC 9560 160MHz
+	- NetConnectionID  	: 	Wi-Fi
+	- GUID 			: 	{7B33AAF3-E649-47D5-83DF-6B88AEE63B50}
+	- MACAddress  		: 	9C:FC:E8:69:77:6F
+	- Manufacturer   	: 	Intel Corporation
+	- Speed        		: 	588250000
+	- Name     		: 	Intel(R) Wireless-AC 9560 160MHz
+	- NetConnectionStatus	: 	Connected
+	- PNPDeviceID     	: 	PCI\VEN_8086&DEV_02F0&SUBSYS_00348086&REV_00\3&11583659&1&A3
+	- ProductName      	: 	Intel(R) Wireless-AC 9560 160MHz
+	- ServiceName       	: 	Netwtw08
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Connected
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000001] Intel(R) Wireless-AC 9560 160MHz
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  2
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- MACAddress  		: 	9C:FC:E8:69:77:70
+	- Manufacturer   	: 	Microsoft
+	- Speed        		: 	9223372036854775807
+	- Name     		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\4&1E742CAA&0&11
+	- ProductName      	: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- ServiceName       	: 	vwifimp
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000002] Microsoft Wi-Fi Direct Virtual Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  3
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Bluetooth Device (Personal Area Network)
+	- NetConnectionID  	: 	Bluetooth Network Connection
+	- GUID 			: 	{34445F1D-903D-4A27-9119-EDC5D0261F4B}
+	- MACAddress  		: 	9C:FC:E8:69:77:73
+	- Manufacturer   	: 	Microsoft
+	- Speed        		: 	3000000
+	- Name     		: 	Bluetooth Device (Personal Area Network)
+	- NetConnectionStatus	: 	Media disconnected
+	- PNPDeviceID     	: 	BTH\MS_BTHPAN\6&1E41B392&0&2
+	- ProductName      	: 	Bluetooth Device (Personal Area Network)
+	- ServiceName       	: 	BthPan
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Media disconnected
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000003] Bluetooth Device (Personal Area Network)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  4
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- MACAddress  		: 	9E:FC:E8:69:77:6F
+	- Manufacturer   	: 	Microsoft
+	- Speed        		: 	9223372036854775807
+	- Name     		: 	Microsoft Wi-Fi Direct Virtual Adapter #2
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\4&1E742CAA&0&12
+	- ProductName      	: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- ServiceName       	: 	vwifimp
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000004] Microsoft Wi-Fi Direct Virtual Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  5
+---------------------
+	- Description 		: 	WAN Miniport (SSTP)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (SSTP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_SSTPMINIPORT
+	- ProductName      	: 	WAN Miniport (SSTP)
+	- ServiceName       	: 	RasSstp
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000005] WAN Miniport (SSTP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  6
+---------------------
+	- Description 		: 	WAN Miniport (IKEv2)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (IKEv2)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_AGILEVPNMINIPORT
+	- ProductName      	: 	WAN Miniport (IKEv2)
+	- ServiceName       	: 	RasAgileVpn
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000006] WAN Miniport (IKEv2)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  7
+---------------------
+	- Description 		: 	WAN Miniport (L2TP)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (L2TP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_L2TPMINIPORT
+	- ProductName      	: 	WAN Miniport (L2TP)
+	- ServiceName       	: 	Rasl2tp
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000007] WAN Miniport (L2TP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  8
+---------------------
+	- Description 		: 	WAN Miniport (PPTP)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (PPTP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_PPTPMINIPORT
+	- ProductName      	: 	WAN Miniport (PPTP)
+	- ServiceName       	: 	PptpMiniport
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000008] WAN Miniport (PPTP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  9
+---------------------
+	- Description 		: 	WAN Miniport (PPPOE)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (PPPOE)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_PPPOEMINIPORT
+	- ProductName      	: 	WAN Miniport (PPPOE)
+	- ServiceName       	: 	RasPppoe
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000009] WAN Miniport (PPPOE)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  10
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	WAN Miniport (IP)
+	- MACAddress  		: 	6A:58:20:52:41:53
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (IP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_NDISWANIP
+	- ProductName      	: 	WAN Miniport (IP)
+	- ServiceName       	: 	NdisWan
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000010] WAN Miniport (IP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  11
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	WAN Miniport (IPv6)
+	- MACAddress  		: 	6C:2B:20:52:41:53
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (IPv6)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_NDISWANIPV6
+	- ProductName      	: 	WAN Miniport (IPv6)
+	- ServiceName       	: 	NdisWan
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000011] WAN Miniport (IPv6)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  12
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	WAN Miniport (Network Monitor)
+	- MACAddress  		: 	6E:07:20:52:41:53
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (Network Monitor)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_NDISWANBH
+	- ProductName      	: 	WAN Miniport (Network Monitor)
+	- ServiceName       	: 	NdisWan
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000012] WAN Miniport (Network Monitor)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  13
+---------------------
+	- Adapter Type		:  	Wide Area Network (WAN)
+	- Description 		: 	RAS Async Adapter
+	- MACAddress  		: 	20:41:53:59:4E:FF
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	RAS Async Adapter
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SW\{EEAB7790-C514-11D1-B42B-00805FC1270E}\ASYNCMAC
+	- ProductName      	: 	RAS Async Adapter
+	- ServiceName       	: 	AsyncMac
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000013] RAS Async Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  14
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	TAP-Windows Adapter V9
+	- NetConnectionID  	: 	Local Area Connection
+	- GUID 			: 	{7BF53C3F-3140-4088-8B6A-2F7AEC3C0E24}
+	- MACAddress  		: 	00:FF:7B:F5:3C:3F
+	- Manufacturer   	: 	TAP-Windows Provider V9
+	- Speed        		: 	1000000000
+	- Name     		: 	TAP-Windows Adapter V9
+	- NetConnectionStatus	: 	Media disconnected
+	- PNPDeviceID     	: 	ROOT\NET\0000
+	- ProductName      	: 	TAP-Windows Adapter V9
+	- ServiceName       	: 	tap0901
+	- SystemName       	: 	MSI
+	- TimeOfLastReset	: 	20210302091733.862224-300
+	- StatusInfo		: 	Media disconnected
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000014] TAP-Windows Adapter V9
+	- ConfigManagerErrorCode:	Device is working properly
+
+-----------------------
++ ipconfig information
+-----------------------
+
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : MSI
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : hsd1.in.comcast.net
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : TAP-Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-7B-F5-3C-3F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 9C-FC-E8-69-77-70
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 9E-FC-E8-69-77-6F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : hsd1.in.comcast.net
+   Description . . . . . . . . . . . : Intel(R) Wireless-AC 9560 160MHz
+   Physical Address. . . . . . . . . : 9C-FC-E8-69-77-6F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2601:245:c601:600::dce6(Preferred) 
+   Lease Obtained. . . . . . . . . . : Tuesday, March 2, 2021 9:17:49 AM
+   Lease Expires . . . . . . . . . . : Tuesday, March 16, 2021 7:31:17 AM
+   IPv6 Address. . . . . . . . . . . : 2601:245:c601:600:c07d:def2:d5b2:81c1(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2601:245:c601:600:8409:f0c3:9b58:d24f(Deprecated) 
+   Temporary IPv6 Address. . . . . . : 2601:245:c601:600:e5ef:21af:7bf2:9f29(Deprecated) 
+   Link-local IPv6 Address . . . . . : fe80::c07d:def2:d5b2:81c1%13(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.0.0.47(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, March 2, 2021 9:17:47 AM
+   Lease Expires . . . . . . . . . . : Thursday, March 11, 2021 8:18:26 AM
+   Default Gateway . . . . . . . . . : fe80::4af7:c0ff:fea3:53b3%13
+                                       10.0.0.1
+   DHCP Server . . . . . . . . . . . : 10.0.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 110951656
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-79-A2-77-9C-FC-E8-69-77-6F
+   DNS Servers . . . . . . . . . . . : 2001:558:feed::1
+                                       2001:558:feed::2
+                                       75.75.75.75
+                                       75.75.76.76
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 9C-FC-E8-69-77-73
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+----------------------
++ Softap Capabilities 
+----------------------
+
+The following command was not found: wlan show device.
+
+----------------------
++ Dump wcncsvc RegKey 
+----------------------
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wcncsvc\Parameters
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\System32\wcncsvc.dll
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+    ServiceMain    REG_SZ    WcnServiceMain
+
+
+--------------------------------
++ Network Discovery Information.
+--------------------------------
+
+
+------------------------------
+- Current Profile information
+------------------------------
+
+Current firewall profile is: 
+Public
+
+Public Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO-store only)
+LocalConSecRules                      N/A (GPO-store only)
+InboundUserNotification               Enable
+RemoteManagement                      Disable
+UnicastResponseToMulticast            Enable
+
+Logging:
+LogAllowedConnections                 Disable
+LogDroppedConnections                 Disable
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+Ok.
+
+
+----------------------------------------------
+- Network discovery status for current profile
+----------------------------------------------
+
+
+  Rule Name:          Network Discovery (WSD Events-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow WSDAPI Events via Function Discovery. [TCP 5357]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD Events-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow WSDAPI Events via Function Discovery. [TCP 5357]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD EventsSecure-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow Secure WSDAPI Events via Function Discovery. [TCP 5358]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD EventsSecure-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow Secure WSDAPI Events via Function Discovery. [TCP 5358]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (Pub WSD-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          Out
+
+  Rule Name:          Network Discovery (Pub-WSD-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          In
+
+  Rule Name:          Network Discovery (LLMNR-UDP-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow Link Local Multicast Name Resolution. [UDP 5355]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          Out
+
+  Rule Name:          Network Discovery (LLMNR-UDP-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow Link Local Multicast Name Resolution. [UDP 5355]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to discover devices via Device Association Framework. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\dashost.exe
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          In
+
+  Rule Name:          Network Discovery (NB-Datagram-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow NetBIOS Datagram transmission and reception. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Network Discovery (NB-Datagram-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow NetBIOS Datagram transmission and reception. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (NB-Name-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow NetBIOS Name Resolution. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Network Discovery (NB-Name-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow NetBIOS Name Resolution. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (UPnP-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery for Teredo (UPnP-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP 2869]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (UPnP-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP 2869]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (UPnPHost-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       upnphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (SSDP-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow use of the Simple Service Discovery Protocol. [UDP 1900]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          Out
+
+  Rule Name:          Network Discovery for Teredo (SSDP-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow use of the Simple Service Discovery Protocol. [UDP 1900]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          In
+
+  Rule Name:          Network Discovery (SSDP-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow use of the Simple Service Discovery Protocol. [UDP 1900]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD Events-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow WSDAPI Events via Function Discovery. [TCP 5357]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD Events-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow WSDAPI Events via Function Discovery. [TCP 5357]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD EventsSecure-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow Secure WSDAPI Events via Function Discovery. [TCP 5358]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD EventsSecure-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow Secure WSDAPI Events via Function Discovery. [TCP 5358]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (Pub WSD-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          Out
+
+  Rule Name:          Network Discovery (Pub-WSD-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          In
+
+  Rule Name:          Network Discovery (LLMNR-UDP-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow Link Local Multicast Name Resolution. [UDP 5355]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          Out
+
+  Rule Name:          Network Discovery (LLMNR-UDP-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow Link Local Multicast Name Resolution. [UDP 5355]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to discover devices via Device Association Framework. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\dashost.exe
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to discover devices via Function Discovery. [UDP 3702]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          In
+
+  Rule Name:          Network Discovery (NB-Datagram-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow NetBIOS Datagram transmission and reception. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Network Discovery (NB-Datagram-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow NetBIOS Datagram transmission and reception. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (NB-Name-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow NetBIOS Name Resolution. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Network Discovery (NB-Name-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow NetBIOS Name Resolution. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (UPnPHost-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       upnphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (UPnP-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (UPnP-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP 2869]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (SSDP-Out)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Outbound rule for Network Discovery to allow use of the Simple Service Discovery Protocol. [UDP 1900]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          Out
+
+  Rule Name:          Network Discovery (SSDP-In)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Inbound rule for Network Discovery to allow use of the Simple Service Discovery Protocol. [UDP 1900]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD Events-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow WSDAPI Events via Function Discovery. [TCP 5357]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD Events-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow WSDAPI Events via Function Discovery. [TCP 5357]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (WSD EventsSecure-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow Secure WSDAPI Events via Function Discovery. [TCP 5358]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (WSD EventsSecure-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow Secure WSDAPI Events via Function Discovery. [TCP 5358]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (NB-Datagram-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow NetBIOS Datagram transmission and reception. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Network Discovery (NB-Datagram-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow NetBIOS Datagram transmission and reception. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (NB-Name-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow NetBIOS Name Resolution. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Network Discovery (NB-Name-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow NetBIOS Name Resolution. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Network Discovery (UPnP-Out)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Outbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP]
+  Application Name:   C:\WINDOWS\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Network Discovery (UPnP-In)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Inbound rule for Network Discovery to allow use of Universal Plug and Play. [TCP 2869]
+  Application Name:   System
+  Service Name:       
+  Direction:          In

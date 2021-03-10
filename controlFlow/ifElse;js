@@ -1,0 +1,47 @@
+// console.log(results)
+
+
+/*
+    Look up the format for an Else If statement
+    Set a variable of age and give it a number of your choice
+    Create an else if statement that checks the following:
+    If the age is 17 or younger, console.log 'Sorry, you're too young to do anything.'
+    If the age is at least 18, console.log 'You can vote!'
+    If the age is at least 21, console.log 'You can drink!'
+    If the age is at least 25, console.log 'You can rent a car!'
+*/
+
+//MY NOTES SECTION
+//the if...else if..
+. statement is an advanced form of if…else that allows JavaScript
+ to make a correct decision out of several conditions.
+
+*/ if is an Else If statement
+-- syntax below
+
+
+
+if (expression 1) {
+   Statement(s) to be executed if expression 1 is true
+} else if (expression 2) {
+   Statement(s) to be executed if expression 2 is true
+} else if (expression 3) {
+   Statement(s) to be executed if expression 3 is true
+} else {
+   Statement(s) to be executed if no expression is true
+}
+
+example
+var book = "maths";
+            if( book == "history" ) {
+               document.write("<b>History Book</b>");
+            } else if( book == "maths" ) {
+               document.write("<b>Maths Book</b>");
+            } else if( book == "economics" ) {
+               document.write("<b>Economics Book</b>");
+            } else {
+               document.write("<b>Unknown Book</b>");
+            }
+
+    **output of example will be Maths Book 
+    */

@@ -1,0 +1,73 @@
+
+SERVICE_NAME: nativewifip 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: nativewifip
+        TYPE               : 1  KERNEL_DRIVER 
+        START_TYPE         : 3   DEMAND_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : system32\DRIVERS\nwifi.sys
+        LOAD_ORDER_GROUP   : NDIS
+        TAG                : 0
+        DISPLAY_NAME       : NativeWiFi Filter
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : 
+
+SERVICE_NAME: wlansvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 3200
+        FLAGS              : 
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: wlansvc
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p
+        LOAD_ORDER_GROUP   : TDI
+        TAG                : 0
+        DISPLAY_NAME       : WLAN AutoConfig
+        DEPENDENCIES       : nativewifip
+                           : RpcSs
+                           : Ndisuio
+                           : wcmsvc
+        SERVICE_START_NAME : LocalSystem
+
+SERVICE_NAME: dhcp 
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 2108
+        FLAGS              : 
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: dhcp
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p
+        LOAD_ORDER_GROUP   : TDI
+        TAG                : 0
+        DISPLAY_NAME       : DHCP Client
+        DEPENDENCIES       : NSI
+                           : Afd
+        SERVICE_START_NAME : NT Authority\LocalService
